@@ -1,0 +1,8 @@
+# Mencegah Mengakses File .htaccess
+<Files .htaccess>
+order allow,deny
+deny from all
+</files>
+
+# disable directory browsing
+Options All -Indexes
